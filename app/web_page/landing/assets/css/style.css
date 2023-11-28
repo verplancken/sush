@@ -1,0 +1,115 @@
+/* Add margin bottom and top to each widgets */
+.component {
+    margin-bottom: 3px;
+    margin-top: 3px;
+}
+
+/* Set cursor to pointer on table with selectable rows */
+.table-hover tr {
+    cursor: pointer;
+}
+
+/* Set a red border to invalid input fields in forms */
+input[type='text'].ng-invalid.ng-dirty, input[type='email'].ng-invalid.ng-dirty,
+input[type='number'].ng-invalid.ng-dirty, input[type='password'].ng-invalid.ng-dirty {
+  border-color: #C00;
+  border-width: 1px;
+}
+
+/* Add a red star after required inputs */
+.control-label--required:after {
+  content: " *";
+  color: #C00;
+}
+.btn-invalid{
+    border-color: #C00;
+    border-width: 1px;
+}
+
+.bonita-modal{
+    overflow-y: auto;
+}
+
+.modal-open .datepicker,
+.modal-open .timepicker {
+    z-index: 9999;
+}
+
+.primera_seccion{
+    background: #dca560;
+    border-radius: 10px; 
+    box-shadow: 10px 5px 5px;
+}
+
+.titulo{
+    color: #ffff;
+    margin-top: 5%;
+}
+
+.mensaje_bienvenida{
+    padding: 2%;
+    background: #F1F1F1;
+    border-radius: 10px; 
+}
+
+.mensaje{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    color: #d34339;
+    font-size: 60px;
+} 
+
+.card_sugerencias{
+    border-radius: 10px; 
+    background: #ffff;
+    padding: 1%;
+    box-shadow: 5px 5px 5px;
+}
+
+.card_promociones{
+    border-radius: 10px; 
+    background: #dca560;
+    padding: 1%;
+    box-shadow: 5px 5px 5px;
+}
+
+.texto_promo{
+    color: #ffff;
+}
+
+.btn_menu{
+    margin-top: 6%;
+}
+
+.imagen{
+    border-radius: 10px; 
+}
+
+.titulo_comida{
+    color: #d34339;
+}
+
+.sugerencias{
+    color: #d48057;
+    margin-bottom: 4%;
+}
+
+.promo{
+    margin-bottom: 6%;
+}
+
+.suge{
+    margin-top: 6%;
+    margin-bottom: 6%;
+    border-top: 2px solid #d34339;
+}
+
+.footer{
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px;
+}
+
+.card_desayunos{
+    padding: 20px;
+}
+
